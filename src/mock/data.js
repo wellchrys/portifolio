@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo: 'I like to face challenges, solve problems and create solutions',
   paragraphThree:
     'Perfectionist and methodical, modern, agile and traditional, but flexible for adaptations in situations of pressure or risk.',
-  resume: 'https://wellchrys.dev/resume.pdf',
+  resume: 'https://www.linkedin.com/in/wellington-chrystian/',
 };
 
 // PROJECTS DATA
