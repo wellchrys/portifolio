@@ -17,17 +17,39 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'me4.png',
+  img: 'me5.png',
   paragraphOne:
-    'I am passionate about programming and I have ease of learning, concentration, dedication, trust, credibility, attention, logical reasoning and good interpersonal relationship are characteristics that I have in my profile.',
+    "I'm passionate about programming and I have ease of learning, concentration, dedication, trust, credibility, attention, logical reasoning and good interpersonal relationship are characteristics that I have in my profile.",
   paragraphTwo: 'I like to face challenges, solve problems and create solutions',
   paragraphThree:
     'Perfectionist and methodical, modern, agile and traditional, but flexible for adaptations in situations of pressure or risk.',
-  resume: 'https://www.linkedin.com/in/wellington-chrystian/',
+  resume: '/ENG_CV_Wellington_Chrystian-v2.pdf',
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'intranex.png',
+    title: 'IntraNEX',
+    info:
+      'IntraNEX is an application developed at NEX with React, TypeScript, Apollo - GraphQL, Tailwind, Elixir, Phoenix and Absinthe.',
+    info2:
+      "This is the Internal application, whose main function is to manage the cooperative member's finances. Generating bills, invoices, reports and transfers.",
+    url: 'https://new-intranex.nexenergy.com.br/',
+    repo: 'https://github.com/wellchrys/nex',
+  },
+  {
+    id: nanoid(),
+    img: 'external.png',
+    title: 'External Area',
+    info:
+      'External area is an application developed at NEX with NextJs, Elixir, Phoenix and Absinthe.',
+    info2:
+      "This is the External application for Nex's clients, whose main function is to expose the cooperative member's finances, bills, invoices, reports and transfers infos.",
+    url: 'https://app.nexenergy.com.br/',
+    repo: 'https://github.com/wellchrys/nex',
+  },
   {
     id: nanoid(),
     img: 'gobarber.png',
