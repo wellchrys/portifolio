@@ -2,9 +2,11 @@ import React, { useContext, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
+import PropTypes from 'prop-types';
 import PortfolioContext from '../../context/context';
+import SwitchLanguage from '../SwitchLanguage/SwitchLanguage';
 
-const Header = () => {
+const Header = ({ onClick, headData }) => {
   const { hero } = useContext(PortfolioContext);
   const { title, name, subtitle, cta } = hero;
 
@@ -23,6 +25,7 @@ const Header = () => {
 
   return (
     <section id="hero" className="jumbotron">
+      <SwitchLanguage onClick={onClick} headData={headData} />
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
@@ -44,6 +47,14 @@ const Header = () => {
       </Container>
     </section>
   );
+};
+
+Header.propTypes = {
+  onClick: PropTypes.func.isRequired,
+  headData: PropTypes.shape({
+    lang: PropTypes.string.isRequired,
+    languages: PropTypes.arrayOf(PropTypes.string).isRequired,
+  }).isRequired,
 };
 
 export default Header;

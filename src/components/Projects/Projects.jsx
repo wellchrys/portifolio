@@ -7,7 +7,7 @@ import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
 const Projects = () => {
-  const { projects } = useContext(PortfolioContext);
+  const { dataProjects } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -26,8 +26,8 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
-          {projects.map((project) => {
+          <Title title={dataProjects.title || 'Projects'} />
+          {dataProjects.projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
             return (
@@ -55,7 +55,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        See Live
+                        {dataProjects.ctaUrl || 'See Live'}
                       </a>
 
                       {repo && (
@@ -65,7 +65,7 @@ const Projects = () => {
                           className="cta-btn text-color-main"
                           href={repo}
                         >
-                          Source Code
+                          {dataProjects.ctaRepo || 'Source Code'}
                         </a>
                       )}
                     </div>
