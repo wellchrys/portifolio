@@ -104,7 +104,7 @@ export const projectsData = {
           'GoBarber application developed on Bootcamp GoStack 11.0 with Node.js, ReactJS and React Native.',
         info2:
           'This is the GoBarber application, which is a service scheduling platform for owners of barbershops or beauty salons. In this application, the user can access all registered service providers through a mobile application, with which the user can choose a provider to book their appointment.',
-        url: 'https://gobarber.wellchrys.dev',
+        url: 'https://stupefied-lalande-98d03c.netlify.app/',
         repo: 'https://github.com/wellchrys/gostack-gobarber-web',
       },
       {
@@ -154,7 +154,7 @@ export const projectsData = {
           'Aplicativo GoBarber desenvolvido no Bootcamp GoStack 11.0 com Node.js, ReactJS e React Native.',
         info2:
           'Este é o aplicativo GoBarber, que é uma plataforma de agendamento de serviços para donos de barbearias ou salões de beleza. Nele, o usuário pode acessar todos os prestadores de serviço cadastrados através de um aplicativo mobile, escolhendo o profissional para agendar seu atendimento.',
-        url: 'https://gobarber.wellchrys.dev',
+        url: 'https://stupefied-lalande-98d03c.netlify.app/',
         repo: 'https://github.com/wellchrys/gostack-gobarber-web',
       },
       {
@@ -204,7 +204,7 @@ export const projectsData = {
           'Aplicación GoBarber desarrollada en el Bootcamp GoStack 11.0 con Node.js, ReactJS y React Native.',
         info2:
           'Esta es la aplicación GoBarber, que es una plataforma de reserva de servicios para propietarios de barberías o salones de belleza. A través de la app móvil, el usuario puede acceder a todos los proveedores registrados y seleccionar uno para reservar su cita.',
-        url: 'https://gobarber.wellchrys.dev',
+        url: 'https://stupefied-lalande-98d03c.netlify.app/',
         repo: 'https://github.com/wellchrys/gostack-gobarber-web',
       },
       {
